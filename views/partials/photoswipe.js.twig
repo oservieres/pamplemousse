@@ -44,7 +44,7 @@ var openPhotoSwipe = function(index) {
                 captionEl.children[0].innerHTML = '';
                 return false;
             }
-            captionEl.children[0].innerHTML = item.title + ' — ' + item.age + ' — ' + item.date;
+            captionEl.children[0].innerHTML = item.title + ' — ' + item.date;
             if (item.comments_count == 0) {
                 comments_invite = 'Soyez le premier à commenter !';
             } else if (item.comments_count == 1) {
